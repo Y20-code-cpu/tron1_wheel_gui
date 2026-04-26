@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "C_Cpp.default.compileCommands": "/home/sheldom/tron1_wheel_gui/build/compile_commands.json"
+}

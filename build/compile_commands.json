@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_controllers",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_controllers\\\" -Drobot_controllers_EXPORTS -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/usr/include/eigen3 -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIC   -o CMakeFiles/robot_controllers.dir/src/ControllerBase.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/ControllerBase.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/ControllerBase.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_controllers",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_controllers\\\" -Drobot_controllers_EXPORTS -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/usr/include/eigen3 -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIC   -o CMakeFiles/robot_controllers.dir/src/PointfootController.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/PointfootController.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/PointfootController.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_controllers",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_controllers\\\" -Drobot_controllers_EXPORTS -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/usr/include/eigen3 -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIC   -o CMakeFiles/robot_controllers.dir/src/WheelfootController.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/WheelfootController.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/WheelfootController.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_controllers",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_controllers\\\" -Drobot_controllers_EXPORTS -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/usr/include/eigen3 -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIC   -o CMakeFiles/robot_controllers.dir/src/SolefootController.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/SolefootController.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_controllers/src/SolefootController.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_gui_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets    -fPIC -o CMakeFiles/tron1_controller_gui.dir/tron1_controller_gui_autogen/mocs_compilation.cpp.o -c /home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_gui_autogen/mocs_compilation.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_gui_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_gui_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets    -fPIC -o CMakeFiles/tron1_controller_gui.dir/src/main.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1_controller/src/main.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/main.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_gui_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets    -fPIC -o CMakeFiles/tron1_controller_gui.dir/src/ros_qt_gui.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_gui_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets    -fPIC -o CMakeFiles/tron1_controller_gui.dir/src/websocket_client.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1_controller/src/websocket_client.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/websocket_client.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -Dwebsocket_client_EXPORTS -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/websocket_client_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIC   -o CMakeFiles/websocket_client.dir/websocket_client_autogen/mocs_compilation.cpp.o -c /home/sheldom/tron1_wheel_gui/build/tron1_controller/websocket_client_autogen/mocs_compilation.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/build/tron1_controller/websocket_client_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -Dwebsocket_client_EXPORTS -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/websocket_client_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIC   -o CMakeFiles/websocket_client.dir/src/websocket_client.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1_controller/src/websocket_client.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/websocket_client.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_node_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/tron1_controller_node.dir/tron1_controller_node_autogen/mocs_compilation.cpp.o -c /home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_node_autogen/mocs_compilation.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_node_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1_controller",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tron1_controller\\\" -I/home/sheldom/tron1_wheel_gui/build/tron1_controller -I/home/sheldom/tron1_wheel_gui/src/tron1_controller -I/home/sheldom/tron1_wheel_gui/build/tron1_controller/tron1_controller_node_autogen/include -I/home/sheldom/tron1_wheel_gui/src/tron1_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/tron1_controller_node.dir/src/tron1_controller_node.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1_controller/src/tron1_controller_node.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/tron1_controller_node.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_hw",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_hw\\\" -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/pointfoot_node.dir/src/RobotHW.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/RobotHW.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/RobotHW.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_hw",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_hw\\\" -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/pointfoot_node.dir/src/RobotHWLoop.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/RobotHWLoop.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/RobotHWLoop.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_hw",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_hw\\\" -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/pointfoot_node.dir/src/PointfootHW.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/PointfootHW.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/PointfootHW.cpp"
+},
+{
+  "directory": "/home/sheldom/tron1_wheel_gui/build/tron1-rl-deploy-ros/robot_hw",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_hw\\\" -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/include -I/home/sheldom/tron1_wheel_gui/devel/include -I/home/sheldom/tron1_wheel_gui/src/limxsdk-lowlevel/include -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/pointfoot_node.dir/src/pointfootNode.cpp.o -c /home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/pointfootNode.cpp",
+  "file": "/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_hw/src/pointfootNode.cpp"
+}
+]

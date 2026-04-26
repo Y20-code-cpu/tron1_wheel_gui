@@ -1,0 +1,2 @@
+limxsdk-lowlevel:robot-description:tron1-rl-deploy-ros/robot_common:tron1-rl-deploy-ros/robot_controllers:tron1-rl-deploy-ros/robot_hw:tron1_controller
+-DCATKIN_DEVEL_PREFIX=/home/sheldom/tron1_wheel_gui/devel -DCMAKE_INSTALL_PREFIX=/home/sheldom/tron1_wheel_gui/install -G Unix Makefiles

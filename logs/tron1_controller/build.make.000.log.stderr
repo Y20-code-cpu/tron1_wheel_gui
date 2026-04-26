@@ -1,0 +1,25 @@
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:[m[K In member function ‘[01m[Kvoid RosQtGUI::onStopPressed()[m[K’:
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:243:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsendTwist[m[K’ was not declared in this scope
+  243 |     [01;31m[KsendTwist[m[K(0.0, 0.0);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:[m[K In member function ‘[01m[Kvoid RosQtGUI::onLinearSpeedChanged(int)[m[K’:
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:256:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsendTwist[m[K’ was not declared in this scope
+  256 |     [01;31m[KsendTwist[m[K(m_current_linear_speed, m_current_angular_speed);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:[m[K In member function ‘[01m[Kvoid RosQtGUI::onAngularSpeedChanged(int)[m[K’:
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:261:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsendTwist[m[K’ was not declared in this scope
+  261 |     [01;31m[KsendTwist[m[K(m_current_linear_speed, m_current_angular_speed);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:[m[K In member function ‘[01m[Kvoid RosQtGUI::onLightEffectChanged(int)[m[K’:
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:294:61:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  294 |     sendCommand("request_light_effect", {{"effect", effect}}[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/src/ros_qt_gui.cpp:1[m[K:
+[01m[K/home/sheldom/tron1_wheel_gui/src/tron1_controller/include/tron1_controller/ros_qt_gui.h:48:67:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid RosQtGUI::sendCommand(const string&, const string&)[m[K’
+   48 |     void sendCommand(const std::string& title, [01;36m[Kconst std::string& data = ""[m[K);
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/tron1_controller_gui.dir/build.make:89：CMakeFiles/tron1_controller_gui.dir/src/ros_qt_gui.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:308：CMakeFiles/tron1_controller_gui.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

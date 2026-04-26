@@ -1,0 +1,8 @@
+prefix=/home/sheldom/tron1_wheel_gui/devel
+
+Name: robot_common
+Description: Description of robot_common
+Version: 0.0.1
+Cflags: -I/home/sheldom/tron1_wheel_gui/src/tron1-rl-deploy-ros/robot_common/include
+Libs: -L${prefix}/lib 
+Requires: 
