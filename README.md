@@ -26,6 +26,7 @@ qt与ros相结合，使用控制面板控制机器人运动
   export ROS_IP=10.192.1.200
   unset ROS_HOSTNAME
   rosrun tron1_controller tron1_controller_node _robot_ip:=10.192.1.2 _robot_accid:=WF_TRON1A_469
+  ```
   
 ### 4.开发机B端启动GUI控制面板
   ```bash
