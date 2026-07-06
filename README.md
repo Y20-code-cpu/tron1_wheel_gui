@@ -1,5 +1,8 @@
 # tron1_wheel_gui
 qt与ros相结合，使用控制面板控制机器人运动
+<img width="700" height="500" alt="1864d3471702e9de887887a9745e4925" src="https://github.com/user-attachments/assets/be2c5472-c643-4c3e-895c-59a8dc3d127f" />
+
+<br>
 
 
 ## 操作步骤：
